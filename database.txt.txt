@@ -1,0 +1,98 @@
+CHASING{
+	userChaser 	INT
+	userChased	INT
+}
+
+EVENTO{
+	idEvento 	INT
+	autore 		INT
+	titolo 		VARCHAR(45)
+	descrizione 	TEXT
+	luogo 		INT
+	inizio		DATE
+	fine 		DATE
+	timestamp	TIMESTAMP
+	fotoEvento	VARCHAR(100)
+}
+
+FOTO{
+	user		INT
+	url		VARCHAR(100)
+	timestamp	TIMESTAMP
+}
+
+LUOGO{
+	idLuogo		INT
+	nome		VARCHAR(45)
+}
+
+MESSAGGIO{
+	destinatario	INT
+	mittente	INT
+	testo		TEXT
+	timestamp	TIMESTAMP
+	visualizzato	TINYINT
+	idMessaggio	INT
+}
+
+OROLOGIO{
+	idOrologio	INT
+	autore		INT
+	luogo		INT
+	fusorario	INT
+}
+
+PARTECIPAZIONE{
+	evento		INT
+	user		INT
+}
+
+POST{
+	idPost		INT
+	autore		INT
+	testo		TEXT
+	luogo		INT
+	tag		INT
+	timestamp	TIMESTAMP
+}
+
+PREFERITI{
+	userPreferring	INT
+	userPreferito	INT
+}
+
+TAPPA{
+	idTappa		INT
+	viaggio		INT
+	luogo		INT
+	commento	TEXT
+	mezzo		INT
+	data		DATE
+	positionX	INT
+	positionY	INT
+	timestamp	TIMESTAMP
+}
+
+USER{
+	idUser		INT
+	username	VARCHAR(45)
+	email		VARCHAR(45)
+	password	VARCHAR(45)
+	name		VARCHAR(45)
+	dataNascita	VARCHAR(45)
+	luogoOrigine	INT
+	luogoPreferito	INT
+	preferenzaCompagina	INT
+	preferenzaClima	INT
+	preferenzaMezzo	INT
+	preferenzaViaggio	INT
+	fotoProfilo	VARCHAR(100)
+}
+
+VIAGGIO{
+	idViaggio	INT
+	autore		INT
+	compagnia	TINYINT
+	tag		INT
+	timestamp	TIMESTAMP
+}
