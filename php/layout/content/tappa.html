@@ -1,0 +1,35 @@
+<!--COME APPARE UNA TAPPA DOPO ESSERE STATA CREATA-->
+
+<div class="divTappaSingola">
+	<input type="text" class="fintoTestoTitolo" value="Tappa n°1">
+	<input type="text" class="textLuogo" placeholder="Nome della tappa">
+	<input type="text" class="textPeriodo" placeholder="Periodo">
+	<div class="divMezzo">
+		<input type="text" class="fintoTestoMezzo" value="Mezzo:">
+		<div class="divImgMezzoScelto"></div>
+		<div class="divImgInGiuIcon" onmouseover="showMezzi(0)" onmouseout="hideMezzi(0)">
+			<img src="..\../css/immagini/inGiuIcon.png" alt=" ">
+		</div>
+		<ul class="ulMezzi" onmouseover="showMezzi(0)" onmouseout="hideMezzi(0)">
+			<li class="liInterno" onclick="printMezzo(0)">
+				<img src="..\../css/immagini/mezzi/mezzoAereo.png">
+			</li>
+			<li class="liInterno" onclick="printMezzo(1)">
+				<img src="..\../css/immagini/mezzi/mezzoAuto.png">
+			</li>
+			<li class="liInterno" onclick="printMezzo(2)">
+				<img src="..\../css/immagini/mezzi/mezzoBici.png">
+			</li>
+			<li class="liInterno" onclick="printMezzo(3)">
+				<img src="..\../css/immagini/mezzi/mezzoMoto.png">
+			</li>
+			<li class="liInterno" onclick="printMezzo(4)">
+				<img src="..\../css/immagini/mezzi/mezzoPiedi.png">
+			</li>
+			<li class="liInterno" onclick="printMezzo(5)">
+				<img src="..\../css/immagini/mezzi/mezzoTreno.png">
+			</li>
+		</ul>
+	</div>
+	<textarea class="textCommento" placeholder="Scrivi un commento!"></textarea>
+</div>
