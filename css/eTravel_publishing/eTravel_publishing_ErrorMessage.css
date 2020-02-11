@@ -1,0 +1,23 @@
+/*CSS MESSAGGIO ERRORE (content)*/
+#divError{
+	border: solid red;
+	border-radius: 10px;
+	background-color: #ff704d;
+	width: 40%;
+	margin: auto;
+	color: white;
+}
+
+.divErrorViaggioEvento{
+	position: absolute;
+	left: 30%;
+}
+
+.divErrorViaggioEvento p{
+	text-align: center;
+}
+
+#pMessaggioErrore{
+	margin: 0.3em;
+	font-size: 75%;
+}

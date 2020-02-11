@@ -1,0 +1,42 @@
+/*SORGENTE DI TUTTI I FONT*/
+@font-face{
+	font-family: Button;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/Vanilla Extract/VanillaExtractRegular.ttf");
+}
+
+@font-face{
+	font-family: Contenuto;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/DK Garden Gnome/DK Garden Gnome.otf");
+}
+
+@font-face{
+	font-family: Logo;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/Heaven Matters/Heaven Matters Personal Use.ttf");
+}
+
+@font-face{
+	font-family: NomeUtente;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/Follow Wood wild/Follow Wood wild.ttf");
+}
+
+@font-face{
+	font-family: SottoContenuto;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/My Epic Selfie/My Epic Selfie Demo.ttf");
+}
+
+@font-face{
+	font-family: Testo;
+	font-style: normal;
+	font-weight: normal;
+	src: url("./font/DK Borrowdale/DK Borrowdale.otf");
+}

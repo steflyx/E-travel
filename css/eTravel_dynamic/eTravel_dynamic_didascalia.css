@@ -1,0 +1,11 @@
+/*DIDASCALIA*/
+#inputDidascalia{
+	position: fixed;
+	background-color: white;
+	border: solid 1px black;
+	font-size: 100%;
+	padding: 0;
+	height: 1.3em;
+	display: block;
+	z-index: 1;
+}

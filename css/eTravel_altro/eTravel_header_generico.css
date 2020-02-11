@@ -1,0 +1,53 @@
+/*HEADER GENRICO (usato in home.php e profilo.php)*/
+
+body{
+	margin: 0;
+	background-color: #d6d6db;
+	width: 100%;
+}
+
+/*BARRA IN ALTO*/
+header{
+	background-color: orange;
+	background-image: url(../immagini/patternHeader.jpg);
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	height: 3em;
+	color: white;
+}
+
+h1{
+	margin: 0;
+	padding-top: 0.2em;
+	padding-left: 2em;
+	font-family: Logo, "Monotype Corsiva", "Comic sans MS", sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px #b34700;
+	width: 30%;
+	float: left;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+#formCerca{
+	float: right;
+	width: 22.5%;
+	text-align: left;
+	margin-right: 6.5%;
+}
+
+#inputCerca{
+	width: 100%;
+	font-size: 16px;
+	padding: 2px;
+	margin: 0.5em;
+	border-radius: 5px;
+	background-color: #e0ebeb;
+}
+
+/*****************************************************/

@@ -1,0 +1,165 @@
+/*CSS PER I FEED RECUPERATI DAL DATABASE*/
+
+/*POST*/
+.divImmagineProfiloContent{
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 0em 0.5em 0em 1em;
+}
+
+.divPost{
+	height: 8em;
+	overflow: auto;
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 0.5em;
+}
+
+.divPostUp{
+	height: 3em;
+}
+
+.divPost a{
+	text-decoration: none;
+	color: #4286f4;
+}
+
+h5{
+	color: #4286f4;
+	font-family: testo;
+	font-size: 150%;
+	margin: 0;
+	margin-top: 0.5em;
+	width: 40%;
+}
+
+h6{
+	margin: 0;
+	font-size: 80%;
+	color: #9b9fa5;
+}
+
+.testoPost{
+	width: 90%;
+	margin-left: 1em;
+	height: 2em;
+	margin-top: 0.4em;
+}
+/******************************/
+
+/*EVENTO*/
+.divEvento{
+	overflow: auto;
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.divEvento a{
+	text-decoration: none;
+}
+
+.titoloEvento{
+	text-align: center;
+	margin: auto;
+	margin-top: 0.5em;
+	font-size: 200%;
+}
+
+.sottoTitoloEvento{
+	margin: 0;
+	margin-left: 5%;
+	text-align: left;
+	font-size: 100%;
+	color: #3e6ebc;
+}
+
+.sottoTitoloEvento a{
+	text-decoration: none;
+	color: #3e6ebc;
+}
+
+.divEvento p{
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	margin-left: 5%;
+	width: 50%
+}
+
+.divImmagineEvento{
+	width: 22%;
+	float: right;
+	margin-right: 5%;
+}
+
+.divEvento input[type="submit"]{
+	background-color: #c1d7d7;
+	border-radius: 5px;
+	height: 2.5em;
+	font-family: Contenuto;
+	border: none;
+	width: 20%;
+	margin-left: 40%;
+	margin-bottom: 1em;
+}
+
+.divEvento input[type="submit"]:hover{
+	background-color: #92b9b9;
+	cursor: pointer;
+}
+/****************************************/
+
+/*VIAGGIO*/
+.divTappaSingola{
+	border: solid 1px #c1d7d7;
+	border-top: none;
+}
+
+.divTappaSingola img{
+	margin-left: 5%;
+}
+
+.divContentViaggioLeft{
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	margin-top: 1.5em;
+	border-top: solid 1px #c1d7d7;
+	overflow: auto;
+	max-height: 30em;
+}
+
+.divContentViaggioRight{
+	float: right;
+	width: 59%;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-right: 5%;
+}
+
+.imgMap{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+/******************************/
+
+/*VIAGGIO RIDOTTO*/
+.divViaggioRidotto{
+	background-color: white;
+	border-radius: 5px;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+#buttonMostraAltro{
+	margin-top: 0.5em;
+	width: 30%;
+	margin-left: 35%;
+}

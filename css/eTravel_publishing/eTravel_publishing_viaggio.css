@@ -1,0 +1,111 @@
+/*ALTEZZA IFRAME NECESSARIA: 32em*/
+/*VIAGGIO*/
+
+/*STRUTTURA GENERALE*/
+html{
+	overflow: hidden;
+}
+
+body{
+	margin: 0;
+}
+
+#divViaggio{
+	width: 99.6%;
+	border: solid 1px #c1d7d7;
+	height: 26em;
+}
+/*********************/
+
+/*ZONA DI SINISTRA*/
+#divViaggioLeft{
+	float: left;
+	width: 35.5%;
+}
+
+/*ZONA SINISTRA ALTA (tappe)*/
+#divTappe{
+	height: 20em;
+	border-bottom: solid 1px #c1d7d7; 
+	border-right: solid 1px #c1d7d7; 
+	overflow: auto;
+}
+
+/*ZONA SINISTRA BASSA (pulsante "aggiungi tappa")*/
+#divInsert{
+	text-align: center;
+	border-right: solid 1px #c1d7d7; 
+	height: 6em;
+}
+
+#divInsert img{
+	height: 5em;
+	cursor: pointer;
+	margin-top: 0.5em;
+}
+
+#divInsert img:hover{
+	cursor: pointer;
+}
+/***********************/
+
+/*ZONA DESTRA*/
+#divViaggioRight{
+	float: right;
+	width: 64%;
+	text-align: center;
+}
+
+#imgMap{
+	width: 19em;
+	margin-top: 1.5em;
+}
+/**********************/
+
+/*ZONA IN FONDO*/
+#divViaggioBottom{
+	height: 4em;
+}
+
+#divViaggioBottom img{
+	height: 4em;
+	margin-left: 2em;
+}
+
+#divViaggioBottom img:hover{
+	cursor: pointer;
+}
+
+/*Creato dinamicamente*/
+#divViaggioBottom input[type="text"]{
+	height: 1.5em;
+	width: 18em;
+	margin-top: 1.2em;
+	border: solid 1px #c1d7d7;
+}
+/**********************/
+
+input[type="submit"]{
+	background-color: #c1d7d7;
+	border-radius: 5px;
+	height: 2.5em;
+	width: 10em;
+	font-family: Contenuto;
+	margin-top: 1em;
+	margin-right: 2em;
+	border: none;
+	float: right;
+}
+
+input[type="submit"]:hover{
+	background-color: #92b9b9;
+	cursor: pointer;
+}
+
+p{
+    margin-top: 0;
+    float: left;
+    text-align: right;
+    width: 93%;
+}
+/**************************/

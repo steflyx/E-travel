@@ -1,0 +1,28 @@
+/*CSS MESSAGGI DELLA HOME*/
+.divMessageContenitore{
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 0.5em;
+	border-radius: 5px;
+	padding: 1em;
+	height: 5em;
+	overflow: auto;
+}
+
+.divMessageContenitore:hover{
+	background-color: #c1c1d7;
+	cursor: pointer;
+}
+
+.divMessageContenitore img{
+	margin-right: 1em;
+}
+
+.divMessageContenitore h5{
+	margin-top: 0;
+}
+
+.divMessageContenitore p{
+	margin-top: 0.5em;
+}

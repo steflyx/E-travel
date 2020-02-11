@@ -1,0 +1,105 @@
+/*TAPPA (creato dinamicamente)*/
+.divTappaSingola{
+	height: 9em;
+	border-bottom: solid 1px #c1d7d7; 
+}
+
+/*Titolo e input per luogo e periodo*/
+.fintoTestoTitolo{
+	border: none;
+	font-size: 90%;
+	margin: 2%;
+	margin-left: 3%;
+}
+
+.textLuogo{
+	width: 60%;
+	margin-left: 4%;
+}
+
+.textPeriodo{
+	width: 25%;
+	margin-left: 4%;
+}
+/********************************/
+
+/*Scelta del mezzo: titolo + lista a discesa*/
+.divMezzo{
+	width: 7em;
+}
+
+.fintoTestoMezzo{
+	border: none;
+	font-size: 90%;
+	width: 3em;	
+	margin: 2%;
+	margin-left: 6%;
+	float: left;
+}
+
+/*Dove si va inserire l'immagine scelta*/
+.divImgMezzoScelto{
+	height: 1em;
+	width: 1em;
+	float: left;
+	margin-top: 0.3em;
+	margin-left: 0.3em;
+}
+
+.divImgMezzoScelto img{
+	height: 100%;
+	width: 100%;
+}
+
+/*Immagine della freccia in giù*/
+.divImgInGiuIcon{
+	float: right;
+	margin-top: 0.5em;
+	height: 1em;
+	width: 2em;
+}
+
+.divImgInGiuIcon:hover{
+	cursor: pointer;
+}
+
+.divImgInGiuIcon img{
+	width: 1em;
+}
+
+/*Lista a discesa*/
+.ulMezzi{
+	list-style: none;
+	display: none;
+	border: 1px solid black;
+    background: white;
+    position: absolute;
+    padding: 0;
+    width: 6.6em;
+}
+
+.ulMezzi li{
+	width: 2em;
+	height: 2em;
+	float: left;
+	margin: 0.1em;
+}
+
+.ulMezzi li:hover{
+	cursor: pointer;
+	background-color: #93939f;
+}
+
+.ulMezzi li img{
+	width: 100%;
+	height: 100%;
+}
+/***********************/
+
+/*Area per il commento*/
+.divTappaSingola textarea{
+	margin: 0.2em;
+	margin-left: 0.6em;
+	width: 93%;
+}
+/********************************/

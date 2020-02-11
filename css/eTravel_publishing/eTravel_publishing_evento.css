@@ -1,0 +1,103 @@
+/*ALTEZZA IFRAME NECESSARIA: 24em*/
+/*EVENTO*/
+
+/*STRUTTURA GENERALE*/
+body {
+    margin: 0;
+}
+/********************************/
+
+/*CONTENITORE DEGLI INPUT DI TESTO*/
+#divEvento{
+	width: 99.6%;
+	border: solid 1px #c1d7d7;
+	font-family: SottoContenuto;
+}
+/******************************/
+
+/*ZONA IN ALTO*/
+#divEventoUp{
+	border-bottom: solid 1px #c1d7d7;
+	height: 5em;
+}
+
+/*ZONA IN ALTO-SINISTRA (TITOLO)*/
+#divTitolo{
+	float: left;
+	border-right: solid 1px #c1d7d7;
+	width: 60%;
+	height: 100%;
+}
+
+h2{
+	padding: 0.3em 0.3em 0.1em 0.5em;
+	margin: 0em;
+	font-size: 100%;
+}
+
+input[type="text"]{
+	margin-left: 0.5em;
+	width: 50%;
+	padding: 4px;
+	border: solid 1px #b3b3b3;
+}
+
+#inputTitolo{
+	width: 70%;
+}
+
+/*ZONA IN ALTO-DESTRA (FOTO)*/
+#divFoto{
+	float: right;
+	width: 39%;
+}
+
+input[type="button"]{
+	width: 4em;
+	height: 3em;
+}
+
+.pressEvento{
+	background-color: #c1d7d7;
+	border: none;
+	border-radius: 5px;
+	font-family: Contenuto;
+}
+
+.pressEvento:hover{
+	background-color: #92b9b9;
+	cursor: pointer;
+}
+/*********************************/
+
+/*ZONA CENTRALE*/
+#divEventoCenter{
+	border-bottom: solid 1px #c1d7d7;
+	height: 11em;
+}
+
+textarea{
+	margin-left: 1%;
+	width: 94%;
+	padding: 0.5%;
+	border: solid 1px #b3b3b3;
+}
+/*******************************/
+
+/*ZONA IN BASSO + PULSANTE*/
+#divEventoDown{
+	height: 4em;
+}
+
+#divEventoDown input[type="text"]{
+	width: 35%;
+	float: left;
+}
+
+input[type="submit"]{
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 0.5em;
+	height: 2.5em;
+}
+/****************************/

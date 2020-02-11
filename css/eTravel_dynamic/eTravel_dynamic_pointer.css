@@ -1,0 +1,14 @@
+/*PUNTATORE PER LA MAPPA*/
+/*CREATO DINAMICAMENTE*/
+.imgMapPointer{
+	position: absolute;
+	width: 2.5em;
+	height: 3.5em;
+	background-image: url("../immagini/mapLocation.png");
+	background-size: cover;
+}
+
+.imgMapPointer:hover{
+	cursor: pointer;
+}
+/**********************/

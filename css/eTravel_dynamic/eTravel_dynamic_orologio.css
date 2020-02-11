@@ -1,0 +1,40 @@
+/*LAYOUT OROLOGIO, CREATO DINAMICAMENTE*/
+
+/*Sfondo contenitore*/
+.divOrologio{
+	height: 8em;
+	width: 8em;
+	background-image: url(../immagini/orologioSfondo.png);
+	background-size: cover;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+/*Div che ruota*/
+.divLancettaEsterna{
+	position: relative;
+	width: 8em;
+	top: 3.9em;
+}
+
+/*Div che viene effettivamente visto dall'utente*/
+.divLancettaInterna{
+	width: 2.8em;
+	height: 0;
+	border: solid 1px black;
+	position: relative;
+	left: 1.2em;
+}
+
+/*Finto testo (citta associata all'orologio)*/
+.divOrologio input{
+	font-family: fintoTesto, "Comic sans MS";
+	font-size: 120%;
+	border: none;
+	background-color: #d6d6db;
+	width: 6em;
+	position: relative;
+	top: 6.5em;
+	text-align: center;
+}
+/***************************************/

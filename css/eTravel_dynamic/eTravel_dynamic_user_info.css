@@ -1,0 +1,43 @@
+/*CSS PER LE USER INFO*/
+.divUserInfoContenitore{
+	width: 40%;
+	margin-left: 3%;
+	margin-bottom: 0.5em;
+	background-color: white;
+	border-radius: 5px;
+	padding: 1em;
+	height: 5em;
+	float: left;
+}
+
+.divUserInfoContenitore:hover{
+	background-color: #c1c1d7;
+}
+
+.divUserInfoContenitore a{
+	width: 100%;
+	height: 100%;
+}
+
+.fotoProfiloUserInfo{
+	height: 100%;
+	float: left;
+}
+
+.divUserInfo{
+	width: 55%;
+	float: right;
+}
+
+.divUserInfo h5{
+	margin: 0;
+}
+
+.divUserInfo p{
+	margin: 0;
+}
+
+#buttonShowMoreContent{
+	margin-left: 30%;
+	width: 40%;
+}

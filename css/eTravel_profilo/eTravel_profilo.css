@@ -1,0 +1,409 @@
+/*PROFILO*/
+
+/*STRUTTURA GENERALE*/
+#divCorpoCentrale{
+	clear: both;
+	width: 92%;
+	margin: auto;
+}
+
+#asideLeft{
+	float: left;
+	width: 20%;
+	padding-top: 1em;
+}
+
+#mainSectionProfilo{
+	float: left;
+	width: 54%;
+	margin-left: 2%;
+}
+
+#asideRight{
+	float: right;
+	width: 22%;
+}
+
+.fintoTesto{
+	border: none;
+	background-color: #d6d6db;
+	font-size: 125%;
+	color: #333333;
+}
+/************************************/
+
+/*PARTE SINISTRA*/
+
+/*PARTE ALTA*/
+/*FOTO PROFILO + POPOLARITA'*/
+#divImgFotoProfilo{
+	width: 4em;
+	height: 4em;
+	background-image: url(../immagini/fotoProfiloIcon.jpg);
+	border: solid 2px white;
+	border-radius: 5px;
+	float: left;
+	margin-right: 0.5em;
+	background-size: cover;
+}
+
+#divImgFotoProfilo form{
+	width: 100%;
+	height: 100%;
+}
+
+#divImgFotoProfilo input{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+#divImgFotoProfilo input:hover{
+	cursor: pointer;
+}
+
+#divFotoProfilo{
+	height: 4em;
+	width: 4em;
+	float: left;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+}
+
+#submitFotoProfilo{
+	display: none;
+}
+
+#divChaserChasing div{
+	float: left;
+	width: 5em;
+	margin-top: 0.3em;
+}
+
+#divChaserChasing input{
+	text-align: center;
+	width: 100%;
+	color: #00b3b3;
+}
+
+#divChaserChasing h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #0086b3;
+}
+/**********************/
+
+/*PARTE DI MEZZO (nome + info)*/
+#inputNome{
+	width: 100%;
+	font-size: 200%;
+	font-family: NomeUtente;
+	font-style: italic;
+	color: #1a53ff;
+}
+
+#inputNickname{
+	width: 100%;
+	position: relative;
+	top: -0.2em;
+	color: #666666;
+	font-style: italic;
+}
+
+.divInfoGenerali{
+	margin-top: 0.7em;
+}
+
+h4{
+	font-size: 125%;
+	margin: 0;
+	color: #0086b3;
+}
+
+#divSettings{
+	height: 4em;
+	margin: auto;
+	margin-top: 1em;
+}
+
+#divSettings img{
+	height: 100%;
+	float: left;
+	width: 20%;
+}
+
+#divSettings img:hover{
+	cursor: pointer;
+}
+
+#divSettings form{
+	height: 100%;
+	width: 33%;
+	float: left;
+}
+/**************************/
+
+/*PARTE BASSA (preferenze)*/
+#divInfoViaggiatore{
+	border-top: dashed 4px #797b86;
+	margin-top: 1em;
+}
+
+h2{
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	color: #00394d;
+}
+
+.divImgPreferenza{
+	width: 44%;
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 0.4em;
+	border-radius: 5px;
+	border: dashed 4px #0086b3;
+}
+
+.divImgPreferenza:hover{
+	cursor: pointer;
+	background-color: #aeaeb7;
+}
+
+.divImgPreferenza img{
+	width: 50%;
+	margin-top: 25%;
+	margin-left: 25%;
+	margin-bottom: 25%;
+}
+
+/*LISTA DI OPZIONI CREATA DINAMICAMENTE*/
+#divInfoViaggiatore input{
+	width: 100%;
+	display: none;
+	font-size: 100%;
+	text-align: center;
+}
+
+#divListaPreferenze{
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 1em;
+}
+
+#divListaPreferenze img{
+	width: 6em;
+	float: left;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+#divListaPreferenze img:hover{
+	cursor: pointer;
+	background-color: #aeaeb7;
+}
+
+#submitPreferenze{
+	background-color: #83afaf;
+	border-radius: 5px;
+	height: 2.5em;
+	font-family: Contenuto;
+	border: none;
+	width: 40%;
+	margin-left: 30%;
+	display: none;
+}
+
+#submitPreferenze:hover{
+	cursor: pointer;
+	background-color: #5a8c8c;
+}
+/****************************************/
+
+/*PARTE CENTRALE*/
+/*PARTE ALTA (scelta contenuti)*/
+#mainSectionProfilo ul{
+	font-family: Contenuto;
+	list-style: none;
+	padding: 0;
+}
+
+.liContent{
+	float: left;
+	padding-left: 5%;
+	padding-top: 0.3em;
+	padding-bottom: 0.1em;
+	width: 28%;
+	background-color: white;
+	border-bottom: solid 1px #c1d7d7;
+	font-size: 150%;
+}
+
+.liContent:hover{
+	cursor: pointer;
+}
+
+#liViaggio{
+	border-left: solid 1px #d0e1e1;
+	border-right: solid 1px #d0e1e1;
+}
+/*****************/
+
+/*IFRAME*/
+iframe{
+	border: none;
+	width: 100%;
+	height: 1000px;
+}
+/**************************************/
+
+/*LATO DESTRO*/
+/*PARTE ALTA (foto)*/
+#asideRight h4{
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#divListaFoto{
+	width: 100%;
+	height: 5em;
+	overflow: auto;
+	margin-bottom: 1em;
+}
+
+.divFotoUtente{
+	width: 5em;
+	height: 5em;
+	float: left;
+	overflow: hidden;
+}
+
+.divFotoUtente img{
+	height: 100%;
+}
+
+#divAggiungiFoto{
+	border-radius: 10px;
+	background-color: #83afaf;
+	text-align: center;
+	background-image: url(../immagini/addIcon.png);
+	background-size: cover;
+	border: solid 1em #83afaf;
+	width: 3em;
+	height: 3em;
+}
+
+#formFotoUtente{
+	width: 3em;
+	height: 4em;
+}
+
+#divAggiungiFoto input{ /*Il pulsante viene fatto coincidere con il div*/
+	width: 6em;
+	height: 6em;
+	opacity: 0;
+	position: relative;
+	right: 1em;
+	top: -1em;
+}
+
+#divAggiungiFoto input:hover{
+	cursor: pointer;
+}
+
+#divAggiungiFoto:hover{
+	background-color: #5a8c8c;
+	border: solid 1em #5a8c8c;
+	cursor: pointer;
+}
+
+/*PULSANTE DI SUBMIT CREATO DINAMICAMENTE*/
+#submitFoto{
+	background-color: #83afaf;
+	border-radius: 5px;
+	height: 2.5em;
+	font-family: Contenuto;
+	border: none;
+	width: 6em;
+	position: relative;
+	top: 5px;
+	display: none;
+}
+
+#submitFoto:hover{
+	background-color: #5a8c8c;
+	cursor: pointer;
+}
+
+/*FOTO CARICATE DAL DATABASE*/
+.divFotoUtenteFromDatabase{
+	width: 5em;
+	height: 5em;
+	float: left;
+	overflow: hidden;	
+	position: relative;
+	top: -4em;
+}
+
+.divFotoUtenteFromDatabase img{
+	height: 100%;
+}
+/***************/
+
+/*PARTE BASSA (orologi)*/
+#divContenitoreOrologi{
+	height: 0;
+}
+
+#divOpzioniOrologi{
+	display: none;
+	margin-bottom: 0.5em;
+}
+
+#divOpzioniOrologi input{
+	margin-bottom: 5px;
+	border-radius: 2px;
+}
+
+#divOpzioniOrologi input[type="text"]{
+	width: 100%;
+}
+
+#divOpzioniOrologi input[type="submit"]{
+	background-color: #00b3b3;
+	height: 2.5em;
+	font-family: Contenuto;
+	border: none;
+}
+
+#divOpzioniOrologi input[type="submit"]:hover{
+	background-color: #008080;
+	cursor: pointer;
+}
+
+#divOrologi{
+	text-align: center;
+	border-top: dashed 4px #797b86;
+	clear: both;
+}
+
+#divAggiungiOrologio{
+	width: 8em;
+	height: 8em;
+	border-radius: 50%;
+	border: dashed 2px #0086b3;
+	margin: auto;
+}
+
+#divAggiungiOrologio:hover{
+	background-color: #aeaeb7;
+	cursor: pointer;
+}
+
+#divAggiungiOrologio img{
+	width: 50%;
+	margin-top: 25%;
+}
+/*****************************************/

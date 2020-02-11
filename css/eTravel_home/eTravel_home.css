@@ -1,0 +1,262 @@
+/*HOME*/
+
+/*STRUTTURA GENERALE*/
+#divCorpoCentrale{
+	clear: both;
+	width: 90%;
+	margin: auto;
+	background-attachment: fixed;
+}
+
+#asideLeft{
+	float: left;
+	width: 23%;
+}
+
+article{
+	float: left;
+	width: 54%;
+}
+
+#asideRight{
+	float: right;
+	width: 22%;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ulLaterali{
+	border-bottom: dashed 4px #797b86;
+	padding: 5%;
+}
+
+a{
+	color: black;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
+/*****************************************************
+/*LATO SINISTRO*/
+
+/*ZONA NOTIFICHE*/
+.divImmagineProfilo{
+	width: 4em;
+	height: 4em;
+	float: left;
+	margin-right: 1em;
+	border: white 1px solid;
+	border-radius: 50%; 
+	overflow: hidden;
+}
+
+.divImmaginiNotifiche{
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+
+.imgProfiloNotifiche{
+	width: 100%;
+	height: 100%;
+}
+/***********************
+
+/*UTILI (notizie, preferiti, viaggi)*/
+li a{
+	text-decoration: none;
+}
+
+.liUtil{
+	clear: both;
+	font-family: Testo;
+	font-size: 200%;
+	margin-left: 0.2em;
+	width: 7em;
+}
+
+.liUtil div{
+	height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.divUtilLeft{
+	width: 5.5em;
+}
+
+.liUtil div:hover{
+	background-color: #93939f;
+	border-radius: 2px;
+}
+
+.imgIcon{
+	width: 1em;
+	height: 1em;
+}
+
+.opzioniMenu{
+	margin: 0;
+	float: right;
+	font-size: 100%;
+	margin-right: 0.1em;
+	text-decoration: none;
+	width: 4em;
+	font-weight: normal;
+}
+/***********************************/
+
+/*NOTIZIE*/
+#imgNewsIcon{
+	float: left;
+	margin-right: 0.3em;
+	margin-top: 0.2em;
+}
+
+.liUtil div a{
+	margin-right: 0.1em;
+}
+
+#divImgInGiuIcon{
+	width: 0.8em;
+	height: 100%;
+	margin: 0;
+	float: right;
+	border-left: 2px solid #d6d6db;
+}
+
+#divImgInGiuIcon:hover{
+	background-color: #6c6c7a;
+}
+
+#divImgInGiuIcon img{
+	width: 0.6em;
+	height: 0.4em;
+	margin-left: 0.1em;
+}
+
+#ulNotizie{
+	display: none;
+	border:1px solid black;
+    background: white;
+    position: absolute;
+    margin-top: 1.3em;
+    margin-left: 1.15em; 
+}
+
+.liInterno:hover{
+	background-color: #6c6c7a;
+}
+/*************************/
+
+
+/*VIAGGI******************/
+.divImgIcon{
+	width: 1em;
+	height: 1.2em;
+	margin-right: 0.3em;
+	float: left;
+}
+
+.divImgIcon img{
+	margin-top: 0.2em;
+}
+/************************/
+
+
+/*FEED (ZONA CENTRALE)*/
+iframe{
+	border: none;
+	width: 91.5%;
+	height: 7.5em;
+	margin-left: 4%;
+}
+
+.divContent{
+	border-radius: 5px;
+	margin: auto;
+	background-color: white;
+	width: 90%;
+}
+
+#ulContent{
+	width: 92%;
+	margin: auto;
+	padding-top: 1em;
+	font-family: Contenuto;
+}
+
+.liContent{
+	float: left;
+	padding-left: 5%;
+	padding-top: 0.3em;
+	padding-bottom: 0.1em;
+	width: 28%;
+}
+
+.liContent:hover{
+	cursor: pointer;
+}
+
+#liViaggio{
+	border-left: solid 1px #d0e1e1;
+	border-right: solid 1px #d0e1e1;
+}
+
+/*TITOLO DELLE VARIE OPZIONI SELEZIONABILI NELLA HOME (es utenti preferiti)*/
+h4{
+	color: #4286f4;
+	font-family: testo;
+	font-size: 300%;
+	margin: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+/*******************************************************/
+
+
+/*LATO DESTRO*/
+
+/*UTILI (impostazioni, lingua, trova amici, trova eventi)*/
+
+.divUtilRight{
+	width: 8em;
+}
+
+.divUtilRight img{
+	margin-top: 0.2em;
+}
+/*****************************************************/
+
+/*CLASSIFICHE*/
+.divLista{
+	padding: 5%;
+}
+
+#divListaMete{
+	border-bottom: dashed 4px #797b86;
+}
+
+.pLista{
+	font-family: Testo;
+	font-size: 200%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ol{
+	font-family: Testo;
+	font-size: 200%;
+	margin: 0;
+	list-style-position: inside;
+}
+/*************************************/

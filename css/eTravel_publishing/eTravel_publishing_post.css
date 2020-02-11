@@ -1,0 +1,66 @@
+/*ALTEZZA IFRAME NECESSARIA: 7.5em*/
+/*POST*/
+
+/*STRUTTURA GENERALE*/
+html{
+	overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+/**********************************/
+
+/*INPUT TESTO*/
+textarea{
+	width: 96.9%;
+	height: 4em;
+	margin-top: 0;
+	padding-top: 2%;
+	padding-left: 2%;
+	border: solid 1px #c1d7d7;
+}
+/*********************************/
+
+/*ZONA SOTTO L'INPUT*/
+#divImgContent{
+	margin-top: 0.2em;
+	float: left;
+}
+
+img{
+	float: left;
+	width: 1.9em;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	cursor: pointer;
+}
+
+/*PULSANTE*/
+input[type="submit"]{
+	background-color: #c1d7d7;
+	border-radius: 5px;
+	height: 2.5em;
+	font-family: Contenuto;
+	margin-top: 2px;
+	border: none;
+	float: right;
+	width: 20%;
+	margin-right: 5px;
+}
+
+input[type="submit"]:hover{
+	background-color: #92b9b9;
+	cursor: pointer;
+}
+/*********************************/
+
+/*CREATO DINAMICAMENTE*/
+#divImgContent input{
+	width: 10em;
+    float: left;
+    margin-top: 5px;
+    margin-right: 1em;
+    border: solid 1px #c1d7d7;
+}
